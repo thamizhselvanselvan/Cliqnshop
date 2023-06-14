@@ -1,0 +1,2 @@
+<?php
+$enc = $this->encoder();

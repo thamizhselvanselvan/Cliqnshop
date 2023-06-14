@@ -1,0 +1,22 @@
+{
+	"projectName": "cliqnshop",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "cliqnshop CSS",
+		"file": "cliqnshop.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/admin/jqadm/"
+		}]
+	}, {
+		"name": "cliqnshop JS",
+		"file": "cliqnshop.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "themes/admin/jqadm/"
+		}]
+	}],
+	"resources" : []
+}

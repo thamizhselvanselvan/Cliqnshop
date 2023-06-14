@@ -1,0 +1,37 @@
+{
+	"name": "aimeos-themes/cliqnshop",
+	"description": "Aimeos cliqnshop theme",
+	"keywords": ["aimeos", "extension"],
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": "~7.1||^8.0.11",
+		"aimeos/aimeos-laravel": "~2022.04"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\": "src"
+		},
+		"classmap": [
+			"src",
+			"ExtensionServiceProvider.php"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Aimeos\\": "tests"
+		},
+		"classmap": [
+			"tests"
+		]
+	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aimeos\\cliqnshop\\ExtensionServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,3 @@
+/*
+ * Custom cliqnshop JS
+ */

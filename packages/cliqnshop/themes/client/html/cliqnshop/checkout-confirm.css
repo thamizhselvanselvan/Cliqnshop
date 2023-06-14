@@ -1,0 +1,140 @@
+/* .checkout-confirm {
+	padding: 2rem 0;
+} */
+/* my css start */
+.checkout-confirm h1{
+	font-size: 1rem;
+    font-weight: 600;
+    color: var(--ai-my-primarytext-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkout-confirm p{
+	font-size: 0.8rem;
+    display: flex;
+	text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--ai-my-primarytext2-color);
+}
+.checkout-confirm-detail .header{
+    font-size: 13px;
+    margin: 0;
+    padding: 0 0 10px 0 !important;
+    font-weight: 600;
+}
+.checkout-confirm-basic .attr-list .name{
+    color: var(--ai-my-primarytext2-color);
+}
+.checkout-confirm-basic .attr-list .value{
+    color: var(--ai-my-primarytext-color);
+    font-weight: 600;
+}
+.checkout-confirm h3 {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 600;
+}
+/* my css end */
+.checkout-confirm-basic {
+	padding: 2rem 0;
+	margin-top: 1.5rem;
+}
+
+.checkout-confirm-basic .attr-list {
+	padding: 0.5rem 1rem;
+	margin: 0.5rem;
+}
+
+/* .checkout-confirm-basic .attr-list .name,
+.checkout-confirm-basic .attr-list .value {
+	display: inline-block;
+	width: 25%;
+} */
+
+.checkout-confirm-basic h2 {
+	/* border-bottom: 1px solid var(--ai-secondary);
+	padding: 0.5rem 1rem; */
+	margin: 0.5rem;
+	margin-top: 0;
+	font-size: 13px;
+    font-weight: 600;
+}
+
+/* additional css start */
+.checkout-confirm p {
+    
+    color: #fff;
+}
+
+.checkout-confirm-intro
+{
+    padding: 15px 15px;
+    background-color: #4e4e4e;
+}
+
+.checkout-confirm h3.noteheader
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding-bottom: 7px;
+    font-size: 22px;
+}
+.checkout-confirm .check
+{
+    text-align: center;
+    align-items: center;padding-bottom: 10px;
+}
+.checkout-confirm .check i
+{
+    
+    font-size: 88px;
+    animation: keys 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+
+@keyframes keys {
+    0% {
+        transform: scale(1.2) translateY(0);
+        opacity: 0.7;
+    }
+    
+    30% {
+        transform: scale(1.2) translateY(2px);
+        opacity: 1;
+    }
+    
+    60% {
+        transform: scale(1.2) translateY(2px);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2) translateY(0);
+        opacity: 0.7;
+    }
+}
+
+.pay-authorised
+{
+    color: #63f220;
+}
+.pay-recieved
+{
+    color: #4cef00;
+}
+.pay-pending
+{
+    color: #fbc326;
+}
+.pay-refused{
+    color: #fddbb2;
+}
+.pay-canceled
+{
+    color: #ff3939;
+}
+
+/* additional css end */

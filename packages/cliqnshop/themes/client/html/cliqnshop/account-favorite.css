@@ -1,0 +1,123 @@
+.account-favorite {
+	margin: 1rem 0;
+	padding: 0;
+}
+
+.account-favorite .header {
+	text-transform: uppercase;
+	text-align: start;
+	font-weight: normal;
+	padding: 0.5rem 1rem;
+	color: var(--ai-secondary);
+	border-bottom: 1px solid var(--ai-secondary);
+}
+
+.account-favorite .favorite-items {
+	display: flex;
+	justify-content: center;
+}
+
+.account-favorite .favorite-item {
+	position: relative;
+	text-align: end;
+	width: 180px;
+	margin: 1%;
+}
+
+.account-favorite .name {
+	margin-top: 0.75rem;
+}
+
+.account-favorite .price-list .rebatepercent {
+	display: none;
+}
+
+.account-favorite form.delete {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.account-favorite .minibutton.delete {
+	color: var(--ai-secondary);
+	background-color: var(--ai-bg);
+	padding: .5rem 0.75rem;
+	z-index: 5;
+}
+
+.account-favorite .media-item > img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* updated css of favorite page  start */
+    
+.account-favorite .minibutton.delete 
+{
+	color: #fff;
+	background-color: var(--ai-bg);
+	padding: 0.5rem 0.75rem;
+	z-index: 5;
+	background-color: var(--ai-btn-primary);
+	border-bottom-right-radius: 50%;
+}
+
+.account-favorite .name 
+{
+	margin-top: 0.75rem;
+	padding: 0 15px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-size: 80%;
+	text-transform: none;
+	color:white;
+
+}
+
+.account-favorite .media-item > img 
+{
+	width: 75%;
+	top: 0px;
+	left: -28px;
+	position: relative;
+	padding-bottom: 17px;
+	height: 200px;
+    object-fit: contain;
+}
+.account-favorite .favorite-items .favorite-item
+{
+	border: 1.5px solid var(--ai-warning) !important;
+	border-radius: 0px !important;
+}
+
+
+.account-favorite .price-list
+{
+	padding: 0 65px;	
+}
+
+.account-favorite .price-list span
+{
+	font-size: 100% !important;
+}
+
+.fav-info
+{
+	margin-top: 20px;
+	/* background-color: var(--ai-btn-primary-alt); */
+	background-color: #e21372;
+	padding: 5px 0;
+	color: white;
+}
+
+/* updated css of favorite page end */
+
+

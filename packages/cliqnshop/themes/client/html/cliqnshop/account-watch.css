@@ -1,0 +1,120 @@
+.account-watch {
+	margin: 1rem;
+	padding: 0;
+}
+
+.account-watch .header {
+	text-transform: uppercase;
+	text-align: start;
+	font-weight: normal;
+	padding: 0.5rem 1rem;
+	color: var(--ai-secondary);
+	border-bottom: 1px solid var(--ai-secondary);
+}
+
+.account-watch form.delete {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+
+.account-watch .minibutton.delete {
+	background-color: var(--ai-bg);
+	padding: .5rem 0.75rem;
+	z-index: 5;
+}
+
+.account-watch .watch-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.account-watch .product.watch-item {
+	position: relative;
+	flex-direction: row;
+	display: flex;
+	min-width: 180px;
+	max-width: 360px;
+	width: 100%;
+	margin: 1%;
+}
+
+.account-watch .watch-basic {
+	margin: 1%;
+	position: relative;
+	display: inline-block;
+	max-width: 50%;
+  }
+
+.aimeos .product.watch-item .price-item .rebatepercent {
+	position: absolute;
+}
+
+.account-watch .name {
+	margin-top: 0.75rem;
+}
+
+.account-watch .watch-details {
+	display: inline-block;
+	text-align: center;
+	max-width: 180px;
+	min-width: 120px;
+	margin: 1%;
+}
+
+.account-watch .btn,
+.account-watch .form-list label,
+.account-watch .form-list input,
+.account-watch .form-list select {
+	width: 100%;
+}
+
+
+/* updated css of watch page  start */ 
+.account-watch .minibutton.delete
+{
+	color: #fff;
+	background-color: var(--ai-bg);
+	padding: 0.5rem 0.75rem;
+	z-index: 5;
+	background-color: var(--ai-btn-primary);
+	border-bottom-right-radius: 50%;
+}
+
+.account-watch .watch-items .watch-item
+{
+	border: 1.5px solid var(--ai-warning) !important;
+	border-radius: 0px !important;
+}
+
+.account-watch .name 
+{
+	margin-top: 0.75rem;
+	padding: 0 15px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-size: 80%;
+	text-transform: none;
+	/* color:white; */
+
+}
+
+.account-watch .watch-items 
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.aimeos .product .price-list 
+{    
+	width: 100%;
+	text-align: center;
+	font-size: 11px;
+}
+.account-watch .media-item > img 
+{
+	height: 200px;
+}
+/* updated css of watch page  end */
